@@ -118,18 +118,18 @@ Types of Loops:
     // }while (true);
     
 //Print the multiple of 6 using do while Loop by taking the value from userside
-    // int i = 1;
-    // int result, n;
-    // cout<<"Enter the value of n: ";
-    // cin>>n;
-    // do
-    // {       
+    int i = 1;
+    int result, n;
+    cout<<"Enter the value of n: ";
+    cin>>n;
+    do
+    {       
         
-    //     result=i*n;
-    //     cout<<result<<endl;
-    //     i++;
+        result=i*n;
+        cout<<result<<endl;
+        i++;
         
-    // }while (i<=10);
+    }while (i<=10);
 
 //Print the multiple of 6 using do while Loop by taking the value from itself
     // int i = 1;
