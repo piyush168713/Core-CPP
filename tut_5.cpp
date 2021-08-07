@@ -9,5 +9,6 @@ int main()
     cout<<"Enter the value of num2: ";
     cin>>num2;
     cout<<"sum is: "<<num1+num2;
+    
     return 0;
 }
