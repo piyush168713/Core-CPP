@@ -12,6 +12,7 @@ int sum(int a, int b){
 //     b = temp;             // 4     5  4
 // }
 
+// Call by Reference using Pointers
 void swapPointer(int* a, int* b){  // temp  a  b    
     int temp = *a;         // 4     4  5
     *a = *b;                // 4     5  5 
