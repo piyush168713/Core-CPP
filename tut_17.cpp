@@ -12,6 +12,10 @@ float moneyReceived (int currentMoney, float factor = 1.04){
     return currentMoney * factor;
 }
 
+// int strlen(const char *p){
+
+// }
+
 int main(){
     int a, b;
     // cout<<"Enter the value of a and b "<<endl;
