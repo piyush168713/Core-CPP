@@ -20,9 +20,9 @@ int main(){
     // cout<<"The value of c with setw is: "<<setw(4)<<c<<endl;
 
 // /******** Operator Precedence **********/
-    int a=3, b=4;
-    int c= ((((a*5)+b)-45)+87);
-    cout<<c;
+    //int a=3, b=4;
+    //int c= ((((a*5)+b)-45)+87);
+    //cout<<c;
    
     return 0;
 }
