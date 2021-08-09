@@ -31,7 +31,6 @@ int main()
     // trying to access private data member
     // directly outside the class
     obj.setData(1.5);
-     
-     
+        
     return 0;
 }
