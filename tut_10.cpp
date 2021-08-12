@@ -131,6 +131,7 @@ Types of Loops:
         
     }while (i<=10);
 
+    
 //Print the multiple of 6 using do while Loop by taking the value from itself
     // int i = 1;
     // int result;
@@ -141,10 +142,6 @@ Types of Loops:
     //     i++;
         
     // }while (i<=10);
-
-
-    
-    
 
 
     return 0;
