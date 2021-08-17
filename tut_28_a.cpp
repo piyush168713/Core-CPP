@@ -14,7 +14,7 @@ class c1{
     void getdata(void){
         cout<<val1<<endl;
     }
-    friend void exchange(c1 &, c2 &);
+    friend void exchange(c1 &, c2 &);   // friend function
 };
 
 class c2{
@@ -53,6 +53,7 @@ int main(){
 
     cout<<"The value of c1 after exchanging becomes: ";
     oc1.getdata();
+    
     cout<<"The value of c2 after exchanging becomes: ";
     oc2.getdata();
 
