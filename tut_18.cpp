@@ -32,3 +32,4 @@ int main(){
     cout<<"The term in fibonacci sequence at position "<<a<<" is "<<fib(a)<<endl;
     return 0;
 }
+
