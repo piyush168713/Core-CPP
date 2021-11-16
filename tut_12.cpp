@@ -24,6 +24,8 @@ int main(){
     cout<<"value at address value_at(value_at c): "<<**c<<endl<<endl;
 
 
+    
+    
     // cout<<"the value of **c (* &b): "<<**c<<endl;
     // cout<<"*c (=&b) address of b: "<<*c<<endl;
 
