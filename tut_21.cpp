@@ -20,6 +20,8 @@ class employee   // The class
     }
 };
 
+
+
 void employee :: setData(int a1, int b1, int c1){      // Method/function definition outside the class
     a = a1;
     b = b1;
