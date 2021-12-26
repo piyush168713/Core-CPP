@@ -19,12 +19,10 @@ complex :: complex(int x, int y){           // Contructor Definition    // It is
 
 
 int main(){
-    // Implicit call
-    complex a(4,6);
+    complex a(4,6);     // Implicit Call
     a.printNumber();
 
-    // Explicit call
-    complex b = complex(7,8);
+    complex b = complex(7,8);        // Explicit Call
     b.printNumber();
     
     return 0;
