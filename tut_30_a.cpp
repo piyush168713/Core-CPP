@@ -4,7 +4,7 @@ using namespace std;
 class point{
     int x, y;
     public:
-    point(int a, int b){
+    point(int a, int b){              // Constructor
         x = a;
         y = b;
     }
