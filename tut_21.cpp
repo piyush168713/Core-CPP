@@ -8,6 +8,10 @@ class employee   // The class
     private:     // Access specifier
     int a, b, c;
 
+    
+    
+    
+    
     public:      // Access specifier
     int d, e;
     void setData(int a, int b, int c);  // Declaration mtlb apko aage mil jayega   // Method/function defined inside the class
