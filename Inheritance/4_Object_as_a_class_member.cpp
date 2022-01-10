@@ -146,33 +146,33 @@
 // Program to derive a class from two base classes. Use objects of both the classes as member variables for derived class.
 // Initialize and display the contents of classes using constructor and destructor.
 
-// #include<bits/stdc++.h>
+#include<bits/stdc++.h>
 
-// class A1{
-//     public:
-//     int x;
-// };
+class A1{
+    public:
+    int x;
+};
 
-// class A2{
-//     public:
-//     int y;
-// };
+class A2{
+    public:
+    int y;
+};
 
-// class A3 : public A1, A2{
-//     public:
-//     A1 a;
-//     A2 b;
-//     A3(){
-//         a.x = 10;
-//         b.y = 20;
-//         std::cout<<"\nx = "<<a.x<<"\ny = "<<b.y;
-//     }
-//     ~A3(){
+class A3 : public A1, A2{
+    public:
+    A1 a;
+    A2 b;
+    A3(){
+        a.x = 10;
+        b.y = 20;
+        std::cout<<"\nx = "<<a.x<<"\ny = "<<b.y;
+    }
+    ~A3(){
 
-//     }
-// };
+    }
+};
 
-// int main(){
-//     A3 m;
-//     return 0;
-// }
+int main(){
+    A3 m;
+    return 0;
+}
