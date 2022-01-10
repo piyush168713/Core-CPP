@@ -21,7 +21,7 @@ int main(){
     bill m;
     int x,y,z;
     std::cout<<"Enter value of x, y & z: ";
-    std::cin>>x>>y>>z;
+    std::cin>>x>>y>>z;    // This data are sent to the member function getdata() with the help of next line code.
     m.getdata(x,y,z);
     m.show();
     return 0;
