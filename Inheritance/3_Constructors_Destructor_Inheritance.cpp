@@ -345,33 +345,33 @@
 
 // Program to derive a class using multiple base classes. Invoke the constructors of base classes explicitly.
 
-// #include<bits/stdc++.h>
+#include<bits/stdc++.h>
 
-// class A1{
-//     public:
-//     A1(){
-//         std::cout<<"\nZero argument constructor of base class A1";
-//     }
-// };
+class A1{
+    public:
+    A1(){
+        std::cout<<"\nZero argument constructor of base class A1";
+    }
+};
 
-// class A2{
-//     public:
-//     A2(){
-//         std::cout<<"\nZero argument constructor of base class A2";
-//     }
-// };
+class A2 : public A1{
+    public:
+    A2(){
+        std::cout<<"\nZero argument construtor of base class A2";
+    }
+};
 
-// class A3 : public A2, A1{
-//     public:
-//     A3() : A2(), A1(){
-//         std::cout<<"\nZero argument constructor of derived class A3";
-//     }
-// };  
+class A3 : public A2{
+    public:
+    A3(){
+        std::cout<<"\nZero argument construtor of base class A3";
+    }
+};
 
-// int main(){
-//     A3 x;
-//     return 0;
-// }
+int main(){
+    A3 x;
+    return 0;
+}
 
 
 
