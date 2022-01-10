@@ -138,28 +138,28 @@
 
 // Program to declare protected data in base class. Access data of base class declared under protected section using member function of derived class.
 
-// #include<bits/stdc++.h>
+#include<bits/stdc++.h>
 
-// class A{                   // Base class
-//     protected:
-//     int x;
-// };
+class A{                   // Base class
+    protected:
+    int x;
+};
 
-// class B : private A{         // Derived class
-//     int y;
-//     public:
-//     B(){
-//         x = 10;
-//         y = 20;
-//     }
-//     void show(){
-//         std::cout<<"\nx = "<<x;
-//         std::cout<<"\ny = "<<y;
-//     }
-// };
+class B : private A{         // Derived class
+    int y;
+    public:
+    B(){
+        x = 10;
+        y = 20;
+    }
+    void show(){
+        std::cout<<"\nx = "<<x;
+        std::cout<<"\ny = "<<y;
+    }
+};
 
-// int main(){
-//     B b;
-//     b.show();
-//     return 0;
-// }
+int main(){
+    B b;
+    b.show();
+    return 0;
+}
